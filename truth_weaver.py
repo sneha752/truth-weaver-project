@@ -338,7 +338,7 @@ def analyze_transcript_with_gemini(transcript_text, audio_filename):
     Analyzes a transcript using the Gemini API to find contradictions and
     synthesize the truth in the required JSON format.
     """
-    api_key = "AIzaSyDaqa3-j3lhOWqrMKBE2oVX4DhPWYQPq88"  # <-- PUT YOUR GEMINI API KEY HERE
+    api_key = ""  # <-- PUT YOUR GEMINI API KEY HERE
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
 
     # Define the system instruction for the Gemini model
